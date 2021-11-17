@@ -1,2 +1,2 @@
 # countForWedSite
-Countdown for my wedding website
+reverse countdown for my wedding website
