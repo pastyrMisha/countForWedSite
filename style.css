@@ -1,3 +1,36 @@
 #timer {
     display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+#timer div {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 23px;
+	text-align: center;
+	font-weight: bold;
+}
+#timer div span:first-child {
+	font-size: 66px;
+	line-height: 1;
+
+}
+#timer div span:last-child {
+	font-size: 13px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+@media (max-width: 900px) {
+#timer div span:first-child {
+	font-size: 36px;
+
+}
+#timer div {
+	padding: 3px 13px;
+}
+}
+@media (max-width: 495px) {
+#timer {
+	flex-wrap: wrap;
+}
 }
